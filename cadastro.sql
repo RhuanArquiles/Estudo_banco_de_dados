@@ -1,0 +1,1 @@
+create database cadastro; -- cria um banco de dados com o nome "cadastro"
