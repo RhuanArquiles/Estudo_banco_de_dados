@@ -16,3 +16,18 @@ nacionalidade varchar(20) default 'Brasil',
 primary key (id) -- importante ter uma chave primária para evitar conflitos de cadastros iguais.
 )default charset utf8mb4; 
 
+-- insert into pessoas  ( nome , nascimento , sexo , peso , altura , nacionalidade ) values -> Se
+-- a ordem de população da tabela for exatamente igual a ordem da tabela, eu não preciso declarar os campos novamente!
+-- Populando o banco 
+insert into pessoas values 
+
+(default,'Rhuan Arquiles','2000-12-07','M','78.5','1.73','Brasil'),
+(default,'Pituca','2023-12-31','F','5.00','0.55', 'São Lourenço'),
+(default,'Creusa','1920-12-30','F','50.2','1.65',default);
+
+-- cadastrando mais de uma pessoa com o mesmo insert into --
+
+select * from cadastro.pessoas;
+
+-- Comandos que são DDL - COMANDOS DE CRIAÇÃO
+-- Comandos que são DML - COMANDOS DE MANIPULAÇÃO
