@@ -51,4 +51,4 @@ where idcurso = '10';
 
 -- Apagando todas as linhas da table
 
-TRUNCATE cursos;
+TRUNCATE cursos;  -- Mantém a estrutura da tabela, mas apaga os dados
